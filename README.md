@@ -74,4 +74,4 @@ Au cours de ce laboratoire, nous avons dû faire face à un problème récurent,
 - [Documentation CayenneLPP lib](https://docs.mydevices.com/docs/lorawan/cayenne-lpp)
 - [Exemple d'utilisation CayenneLPP](https://www.thethingsnetwork.org/docs/devices/arduino/api/cayennelpp/)
 - [Connecter un MKR1310 à TTN](https://docs.arduino.cc/tutorials/mkr-wan-1300/the-things-network)
--[Documentation MKRWAN lib](https://www.arduino.cc/reference/en/libraries/mkrwan/)
+- [Documentation MKRWAN lib](https://www.arduino.cc/reference/en/libraries/mkrwan/)
