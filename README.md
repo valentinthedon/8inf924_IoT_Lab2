@@ -1,6 +1,6 @@
 # 8INF924 - Laboratoire 2
 ## Introduction
-Au sein de ce dépot vous trouverez l'ensemble des livrables du Laboratoire 2 du cours "8INF924 - Internet of Things" de l'UQAC. Ce projet a été réalisé par :
+Au sein de ce dépôt vous trouverez l'ensemble des livrables du Laboratoire 2 du cours "8INF924 - Internet of Things" de l'UQAC. Ce projet a été réalisé par :
 
 * Valentin THEDON - THEV10079801
 * Samia CHAHBOUNIA - CHAS24580000
