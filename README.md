@@ -28,7 +28,7 @@ L'exercice 2 consistait dans un premier temps à mettre en place un compteur cla
 
 ![Affichage TTN de la reception du compteur](/exo2-1_TTN.PNG)
 
-Une fois la connexion établie, on remarque la réception de données sur le cloud TTN. Comme le montre l'image ci-dessus, il semblerait que les valeurs reçus par TTN soit discontinues. En jettant un oeil au *Serial Monitor*, on observe, qu'un grand nombre de paquets n'a été envoyé. Cela est dû aux limites du microcontrôleur ainsi qu'à sa méthode de transmission, qui limite la bande passante et la cadence d'envoi des paquets. Pour solutionner ce problème, j'ai trouvé plusieurs solutions : 
+Une fois la connexion établie, on remarque la réception de données sur le cloud TTN. Comme le montre l'image ci-dessus, il semblerait que les valeurs reçus par TTN soit discontinues. En jettant un oeil au *Serial Monitor*, on observe, qu'un grand nombre de paquets n'a été envoyé. Cela est dû aux limites du microcontrôleur ainsi qu'à sa méthode de transmission, qui limite la bande passante et la cadence d'envoi des paquets. Pour solutionner ce problème, nous avons trouvé plusieurs solutions : 
 * Placer un `delay()`, avec environ 20 secondes, ce qui va ralentir notre compteur et donc notre envoi de donnée pour ne pas avoir de pertes.
 * La deuxième solution que nous avons pu trouver été de créer des paquets plus gros, mais avec l'ensemble des données collecté entre 2 envois
 * Enfin nous exploiterons une dernière solution dans la partie 2 de cet exercice.
