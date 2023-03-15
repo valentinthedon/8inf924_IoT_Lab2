@@ -96,7 +96,7 @@ void loop() {
     delay(SENSOR_INTERVAL);    
   }
 
-  float gasSensorAvgVal = ((float)gasSensorSum) / (((float)gasSensorDataCount) * 100.0);
+  float gasSensorAvgVal = ((float)gasSensorSum) / ((gasSensorDataCount) * 100.0);
 
   buildPacket(gasSensorAvgVal);
   sendPacket();
